@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Trabajo Practico N|2</title>
+</head>
+<body>
+    <h3>Formulario Carga de Datos</h3>
+    <form>
+        <fieldset>
+                <div>
+                    <label for="Apellido">Apellido</label>             
+                    <input type="text" id="Apellido" placeholder="Apellido...">   
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" id="Nombre" placeholder="Nombre...">
+                </div>
+                <br> 
+                <div>
+                    <label for="DNI">DNI</label>
+                    <input type="number" id="DNI" placeholder="DNI...">
+                    <label for="Fecha de Nacimiento">Fecha de Nacimiento</label>
+                    <input type="date" id="Fecha de Nacimiento" placeholder="Fecha de Nacimiento...">
+                </div>
+                <br>
+                <div>
+                    <label for="Domicilio">Domicilio</label>             
+                    <input type="text" id="Domicilio" placeholder="Domicilio...">   
+                    <label for="Localidad">Localidad</label>
+                    <input type="text" id="Localidad" placeholder="Localidad...">
+                </div>
+        </fieldset>
+    </form>
+    <table>
+        <thead>
+            <th>
+                <tr>
+                    <b>Idiomas que conoce</b>
+                </tr>
+                <tr>
+                   <b>Nivel de Conocimiento</b>
+                </tr>   
+            </th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <div>
+                        <label> Español </label>
+                        <input type="checkbox" name="lenguajes" value="Español" id="box1" checked>
+                    </div>
+                </td>  
+                <td>
+                    <label for="barra1"></label>
+                    <meter id="barra1" style="color: blue;"  min="0" max="100" value="rango" optimum="50">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <label> Inglés </label>
+                        <input type="checkbox" name="lenguajes" value="Inglés" id="box2" checked>
+                    </div>
+                </td>  
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <label> Francés </label>
+                        <input type="checkbox" name="lenguajes" value="Francés" id="box3" checked>
+                    </div>
+                </td>  
+            </tr>
+            <tr>
+                <td>
+                    <div>
+                        <label> Chino </label>
+                        <input type="checkbox" name="lenguajes" value="Chino" id="box4" checked>
+                    </div>
+                </td>  
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
