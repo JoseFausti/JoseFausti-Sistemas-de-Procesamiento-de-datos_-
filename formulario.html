@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formularios Trabajo Practico N|2</title>
+    <title>Formularios Trabajo Practico Nº2</title>
 </head>
 <body>
     <h3>Formulario Carga de Datos</h3>
@@ -30,15 +30,18 @@
                     <input type="text" id="Localidad" placeholder="Localidad...">
                 </div>
         </fieldset>
-    </form>
+    
+    <h4>Idiomas que conoce</h4>
     <table>
         <thead>
             <th>
                 <tr>
-                    <b>Idiomas que conoce</b>
-                </tr>
-                <tr>
-                   <b>Nivel de Conocimiento</b>
+                    <td>
+
+                    </td>
+                    <td>
+                        <b>Nivel de Conocimiento</b>
+                    </td>
                 </tr>   
             </th>
         </thead>
@@ -52,7 +55,7 @@
                 </td>  
                 <td>
                     <label for="barra1"></label>
-                    <meter id="barra1" style="color: blue;"  min="0" max="100" value="rango" optimum="50">
+                    <input type="range" min="0" max="100" id="barra1">
                 </td>
             </tr>
             <tr>
@@ -62,6 +65,10 @@
                         <input type="checkbox" name="lenguajes" value="Inglés" id="box2" checked>
                     </div>
                 </td>  
+                <td>
+                    <label for="barra2"></label>
+                    <input type="range" min="0" max="100" id="barra2">
+                </td>
             </tr>
             <tr>
                 <td>
@@ -69,6 +76,10 @@
                         <label> Francés </label>
                         <input type="checkbox" name="lenguajes" value="Francés" id="box3" checked>
                     </div>
+                </td>
+                <td>
+                    <label for="barra3"></label>
+                    <input type="range" min="0" max="100" id="barra3">
                 </td>  
             </tr>
             <tr>
@@ -77,9 +88,16 @@
                         <label> Chino </label>
                         <input type="checkbox" name="lenguajes" value="Chino" id="box4" checked>
                     </div>
+                </td>
+                <td>
+                    <label for="barra4"></label>
+                    <input type="range" min="0" max="100" id="barra4">
                 </td>  
             </tr>
         </tbody>
     </table>
+    <button type="submit" style="color:white ; lighting-color:white; background-color: rgb(95, 95, 186); border-color: white;" >Enviar </button>
+    <button type="reset" style="color:white ; lighting-color:white; background-color: rgb(95, 95, 186); border-color: white;">Borrar</button>
+</form>
 </body>
 </html>
